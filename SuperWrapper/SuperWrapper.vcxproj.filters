@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Processes">
+      <UniqueIdentifier>{008ce1b4-361c-42d9-8894-642513f2ffd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="_MAIN">
+      <UniqueIdentifier>{c5244a80-e84e-455c-8ec9-897b13893b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lan">
+      <UniqueIdentifier>{81c4d93b-ab00-42df-b05b-461273f2854d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{60b2f47b-9f25-4c7e-a538-a98275bb1d87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PROCESS_IInputRedirector.cpp">
+      <Filter>Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="PROCESS_IOutputRedirector.cpp">
+      <Filter>Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="PROCESS_Process.cpp">
+      <Filter>Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWorker.cpp">
+      <Filter>_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="RunInfo.cpp">
+      <Filter>_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="SputnikWorker.cpp">
+      <Filter>_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="StringEx.cpp">
+      <Filter>_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperWrapper.cpp">
+      <Filter>_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="LOGDatagramSender.cpp">
+      <Filter>Lan</Filter>
+    </ClCompile>
+    <ClCompile Include="OLDatagramMaker.cpp">
+      <Filter>Lan</Filter>
+    </ClCompile>
+    <ClCompile Include="SendSignal.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceBase.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceInstaller.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperWrapperService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PROCESS_IInputRedirector.h">
+      <Filter>Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="PROCESS_IOutputRedirector.h">
+      <Filter>Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="PROCESS_Process.h">
+      <Filter>Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWorker.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="RunInfo.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="SputnikWorker.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="StringEx.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperWrapper.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="LOGDatagramSender.h">
+      <Filter>Lan</Filter>
+    </ClInclude>
+    <ClInclude Include="OLDatagramMaker.h">
+      <Filter>Lan</Filter>
+    </ClInclude>
+    <ClInclude Include="SendSignal.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceBase.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceInstaller.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperWrapperService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SuperWrapper.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\SuperWrapper.ini" />
+  </ItemGroup>
+</Project>
